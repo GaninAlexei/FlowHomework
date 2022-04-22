@@ -46,4 +46,7 @@ dependencies {
     implementation 'androidx.activity:activity-ktx:1.2.3'
     testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.4.3'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+    testImplementation "androidx.arch.core:core-testing:2.1.0"
+    testImplementation "junit:junit:4.12"
+    androidTestImplementation 'androidx.test:rules:1.4.0'
 }
